@@ -21,3 +21,15 @@ A FPS Character also in use for Proximo One. This class is not yet complete, as 
 
 ##### [CustomCharacterMovementComponent](Examples/Unreal%20C%2B%2B/CustomCharacterMovementComponent.h)
 Used by PlayerBase, this component implements a custom movement mode used in the ledge grabbing mechanic to take advantage of the CharacterMovementComponent's client prediction. It implements a linear movement by its acceleration, as it is intended to be used for curve-driven movement.
+
+### [Unity](Examples/Unity%20C%23)
+##### [CameraShake](Examples/Unity%20C%23/CameraShake.cs)
+A trauma-based camera shake implemented with perlin noise. This camera shake script uses noise, frequency, and amplitude controls for plug-and-play functionality.
+
+###### Features:
+- A Perlin Noise based approach, giving natural and organic camera movement
+- Controls for whether or not the camera shake should decay, allowing this script to be used more flexibly in situations where you may want constant camera shake
+- A Decay curve to fine tune how quickly the camera shake stabilizes
+- Frequency and Amplitude controls to tweak whether your camera feels more 'shaky' or 'wobbly'
+- A trauma system, allowing multiple sources to 'traumatize' the camera without overwriting each other
+- Direct access to the perlin noise settings under the hood in the inspector if you'd like to get your hands dirty with the underlying implementation without needing to dive into the code
