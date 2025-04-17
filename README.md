@@ -3,7 +3,7 @@
 [![Email](assets/images/Email.png)](mailto:drewfunderburkbusiness@gmail.com)
 [![LinkedIn](assets/images/LinkedIn.png)](https://www.linkedin.com/in/drew-funderburk)
 [![GitHub](assets/images/Github.png)](https://github.com/drewfunderburk)
-[![Portfolio](assets/images/Portfolio.png)](drewfunderburk.github.io/portfolio)
+[![Portfolio](assets/images/Portfolio.png)](https://drewfunderburk.github.io/portfolio)
 
 > This repository serves as a convenience for viewing snippets of my code without needing access to private repositories, as many of the things I work on are not public.
 
